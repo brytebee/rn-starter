@@ -25,6 +25,11 @@ const HomeScreen = ({ navigation: { navigate } }) => {
         onPress={() => navigate("Counter")}
         style={styles.btnStyle}
       />
+      <Button
+        title="Go to Color demo"
+        onPress={() => navigate("Color")}
+        style={styles.btnStyle}
+      />
     </View>
   );
 };
