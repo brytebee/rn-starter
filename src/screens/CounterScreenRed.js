@@ -16,7 +16,7 @@ const reducer = (state, action) => {
   }
 };
 
-const CounterScreen = () => {
+const CounterScreenRed = () => {
   const [state, dispatch] = useReducer(reducer, { counter: 0 });
   const { counter } = state;
 
@@ -45,4 +45,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CounterScreen;
+export default CounterScreenRed;
